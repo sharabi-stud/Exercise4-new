@@ -83,7 +83,7 @@ class GradesWindow(QMainWindow):
             self.table.setItem(i, 0, QTableWidgetItem(str(self.student_ids[i])))
             self.table.setItem(i, 1, QTableWidgetItem(str(self.original_grades[i])))
             self.table.setItem(i, 2, QTableWidgetItem(str(self.corrected_grades[i])))
-
+    
     def apply_bonus(self):
         bonus = self.spin_bonus.value()
         for i in range(len(self.original_grades)):
