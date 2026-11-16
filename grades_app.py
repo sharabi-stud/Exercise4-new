@@ -84,7 +84,7 @@ class GradesWindow(QMainWindow):
             self.table.setItem(i, 0, QTableWidgetItem(str(self.student_ids[i])))
             self.table.setItem(i, 1, QTableWidgetItem(str(self.original_grades[i])))
             self.table.setItem(i, 2, QTableWidgetItem(str(self.corrected_grades[i])))
-    
+
     def apply_bonus(self):
         bonus = self.spin_bonus.value()
         for i in range(len(self.original_grades)):
@@ -112,7 +112,7 @@ class GradesWindow(QMainWindow):
             subprocess.call(["xdg-open", self.selected_file])
 
     def show_about(self):
-        QMessageBox.about(self, "About", "Grades Editor App\nGitHub: https://github.com/sharabi-stud/Exercise4")
+        QMessageBox.about(self, "About", "Grades Editor App\nGitHub: https://github.com/sharabi-stud/Exercise4-new")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
