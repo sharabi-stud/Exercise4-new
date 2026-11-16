@@ -84,7 +84,7 @@ class IceCreamWindow(QMainWindow):
         self.canvas.draw()
 
     def show_about(self):
-        QMessageBox.about(self, "About", "Ice Cream Revenue Analysis\nGitHub: https://github.com/sharabi-stud/Exercise4")
+        QMessageBox.about(self, "About", "Ice Cream Revenue Analysis\nGitHub: https://github.com/sharabi-stud/Exercise4-new")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
