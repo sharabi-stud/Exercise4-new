@@ -45,6 +45,7 @@ class GradesWindow(QMainWindow):
         self.table = QTableWidget(50, 3)
         self.table.setHorizontalHeaderLabels(["ID", "Original Grades", "Corrected Grades"])
         self.table.setEditTriggers(QTableWidget.NoEditTriggers)
+        self.table.horizontalHeader().setStretchLastSection(True)
         main_layout.addWidget(self.table)
 
         self.btn_update = QPushButton("Update File")

@@ -1,0 +1,42 @@
+QMainWindow {
+    background-color: whitesmoke;
+}
+
+QPushButton {
+    background-color: steelblue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: midnightblue;
+}
+
+QLabel {
+    font-size: 14px;
+    color: black;
+}
+
+QSpinBox {
+    font-size: 14px;
+    padding: 4px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    background-color: white;
+}
+
+QTableWidget {
+    background-color: white;
+    gridline-color: lightgray;
+    font-size: 13px;
+}
+
+QHeaderView::section {
+    background-color: gainsboro;
+    padding: 6px;
+    font-weight: bold;
+    border: 1px solid silver;
+}
